@@ -15,6 +15,8 @@
 
 A Convolutional Neural Network implemented **from the ground up in pure MATLAB** — no Deep Learning Toolbox, no third-party frameworks, no prebuilt autograd. Every layer, every gradient, and every weight update is handwritten as matrix math.
 
+> **Source:** written while working through the examples in Phil Kim, *MATLAB Deep Learning* (Apress, 2017). Convolution uses MATLAB's built-in `conv2`.
+
 ### 📋 Project Overview
 
 Built to internalize the mathematical machinery that deep learning frameworks normally hide behind high-level abstractions. Every forward pass, every backward pass, and every optimizer step was derived on paper and translated directly into matrix operations.
@@ -55,6 +57,8 @@ Built to internalize the mathematical machinery that deep learning frameworks no
 ## 🇰🇷 한국어
 
 외부 딥러닝 라이브러리(Deep Learning Toolbox 등)나 프레임워크 없이, **순수 MATLAB의 행렬 연산만으로 바닥부터 구현한 합성곱 신경망(CNN)** 프로젝트입니다. 모든 레이어, 모든 gradient, 모든 weight 업데이트를 수식에서 직접 코드로 옮겼습니다.
+
+> **출처:** Phil Kim, 『MATLAB Deep Learning』(Apress, 2017)의 예제를 따라가며 작성했습니다. 합성곱 연산에는 MATLAB 내장 함수 `conv2`를 사용했습니다.
 
 ### 📋 프로젝트 개요
 
